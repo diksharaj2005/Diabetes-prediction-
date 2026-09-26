@@ -12,10 +12,10 @@ A Streamlit web application that predicts whether a patient is likely to have di
 ## 👥 Team Members
 | Name | Reg. No. |
 |------|----------|
-| Umang Kumar Chourasia | |
-| Aditya Kumar Sahay | |
-| Khushi Singh | |
-| Diksha Raj | |
+| Umang Kumar Chourasia | 2341003058 |
+| Aditya Kumar Sahay | 2341019019 |
+| Khushi Singh | 2341019515 |
+| Diksha Raj | 2341018024 |
 
 ---
 
