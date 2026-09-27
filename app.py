@@ -77,12 +77,12 @@ st.markdown("""
 @st.cache_resource(show_spinner="Loading model…")
 def load_artifacts():
     missing = []
-    for fname in ["diabetes_mlp.h5", "diabetes_scaler.pkl", "feature_columns.pkl"]:
+    for fname in ["diabetes_mlp_clean.h5", "diabetes_scaler.pkl", "feature_columns.pkl"]:
         if not os.path.exists(fname):
             missing.append(fname)
     if missing:
         return None, None, None, missing
-    model = keras.models.load_model("diabetes_mlp.h5")
+    model = keras.models.load_model("diabetes_mlp_clean.h5")
     scaler  = joblib.load("diabetes_scaler.pkl")
     columns = joblib.load("feature_columns.pkl")
     return model, scaler, columns, []
